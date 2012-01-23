@@ -1,4 +1,4 @@
-# Install script for directory: /home/bjorn/src/allegro/5.1/addons/haptic
+# Install script for directory: /home/bjmey/arch/src/allegro/5.1/addons/haptic
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -19,7 +19,8 @@
 		
 		includedirs { "include", "include/allegro5",                   
                   "/usr/local/include"    , "/usr/local/include/allegro5" ,                  
-                  "/usr/include"          , "/usr/include/allegro5"
+                  "/usr/include"          , "/usr/include/allegro5",
+                  "./include"
                 }
 
 		libdirs     { "/usr/lib/i386-linux-gnu" }
@@ -46,12 +47,12 @@
 ]]		
 
 		configuration "Debug"
-			targetdir   "bin"
+			targetdir   "lib"
 			defines     "CONFIG_DEBUG"
 			flags       { "Symbols" }
 			
 		configuration "Release"
-			targetdir   "bin"
+			targetdir   "lib"
 			defines     "NDEBUG"
 			flags       { "OptimizeSize" }
 			
